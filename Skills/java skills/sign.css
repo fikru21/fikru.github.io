@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.sign_u {
+
+    width: 100%;
+    height: 1000px;
+    background-color: #242424;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 100px;
+    
+}
+span{
+    color: #f9004d;
+    font-weight: bold;
+}
+.sign_u h2{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.sign_u .bod{
+    font-size: 40px;
+}
+.try{
+    font-size: 30px;
+    color: blue;
+  
+}
+.submit{
+    background-color: white;
+    color: #f9004d;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+ }
+ .submit:hover{
+     transform: scale(1.3);
+     background-color: transparent;
+     border-color: white;

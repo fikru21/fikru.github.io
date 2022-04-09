@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.mainten{
+    width: 100%;
+    height: 1000px;
+    background-color: #242424;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+span{
+   color: #f9004d; 
+}
+.bod{
+    padding-top: 50px;
+}
+p{
+    font-size: 30px;
+}
+h2{
+    font-size: 30px;
+}
+.bod .but{
+    margin-top: 100px;
+    color: red;
+}
+.bod .but .tutorial{
+    background-color: rgb(139, 137, 137);
+    color: #f9004d;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+.bod .but .tutorial:hover{
+    transform: scale(1.3);
+     background-color: transparent;
+     border-color: white;
+}

@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.hea{
+    width: 100%;
+    height: 1600px;
+    background-color: #242424;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+span{
+    color: #f9004d;
+}
+.hea .bod{
+    padding-top: 50px;
+    font-size: 25px;
+    color: white;
+}
+.bod h2{
+    padding-top: 150px;
+    padding-bottom: 110px;
+}
+.j_link a{
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: #f9004d;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.j_link a:hover{
+    transform: scaleX(1.2);
+    background-color: transparent;
+     border-color: white;
+}
+p{
+    text-align: left;
+}
+
+.but a .tuto{
+    background-color: rgb(139, 137, 137);
+    color: #f9004d;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.but a .tuto:hover{
+    transform: scale(1.3);
+     background-color: transparent;
+     border-color: white;
+}
